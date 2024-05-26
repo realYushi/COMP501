@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "comp501",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./styles/tailwind.css -o ./styles/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
